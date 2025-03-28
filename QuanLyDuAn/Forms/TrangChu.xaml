@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:QuanLyDuAn.Forms"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#2E2E2E">
+    <Grid Background="#2E2E2E" Margin="0,0,-53,-90">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>

@@ -5,6 +5,15 @@
     <Compile Update="Forms\DuAn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Forms\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\ProjectsControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\RegisterControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Forms\TrangChu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
