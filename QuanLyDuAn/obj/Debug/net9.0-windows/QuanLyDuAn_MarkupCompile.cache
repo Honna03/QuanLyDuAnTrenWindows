@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Thuctap\QuanLyDuAnTrenWindows\QuanLyDuAn\obj\Debug\net9.0-windows\
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\obj\Debug\net9.0-windows\
 QuanLyDuAn
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-D:\Thuctap\QuanLyDuAnTrenWindows\QuanLyDuAn\App.xaml
-101522357114
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\App.xaml
+14-1638738560
 
-13177163460
+17-439878711
 2001031969389
-Forms\BaoCao.xaml;Forms\DuAn.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
+Forms\BaoCao.xaml;Forms\CongThucKPI.xaml;Forms\DuAn.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\Edit_CongThuc.xaml;Forms\Edit_KPI.xaml;Forms\KPI.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
 
 False
 
