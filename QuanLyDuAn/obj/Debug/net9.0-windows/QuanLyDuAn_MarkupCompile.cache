@@ -1,0 +1,28 @@
+﻿QuanLyDuAn
+
+
+winexe
+C#
+.cs
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\obj\Debug\net9.0-windows\
+QuanLyDuAn
+none
+false
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\App.xaml
+<<<<<<< HEAD
+171517555164
+
+201123272957
+2001031969389
+Forms\BaoCao.xaml;Forms\ChiTietCongViec.xaml;Forms\ChiTietNhanVien.xaml;Forms\CongThucKPI.xaml;Forms\DanhSachCongViec.xaml;Forms\DanhSachNhanVien.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\Edit_CongThuc.xaml;Forms\Edit_KPI.xaml;Forms\KPI.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
+=======
+14-1638738560
+
+17-439878711
+2001031969389
+Forms\BaoCao.xaml;Forms\CongThucKPI.xaml;Forms\DuAn.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\Edit_CongThuc.xaml;Forms\Edit_KPI.xaml;Forms\KPI.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
+>>>>>>> 3938ef1bbe0f159556395f49f7a4f646ce393e24
+
+False
+
