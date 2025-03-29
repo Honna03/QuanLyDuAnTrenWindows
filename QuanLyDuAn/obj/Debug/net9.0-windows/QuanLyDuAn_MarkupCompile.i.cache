@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Thuctap\QuanLyDuAnTrenWindows\QuanLyDuAn\obj\Debug\net9.0-windows\
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\obj\Debug\net9.0-windows\
 QuanLyDuAn
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\Thuctap\QuanLyDuAnTrenWindows\QuanLyDuAn\App.xaml
-101522357114
+D:\TTTN\Cty\Project\QuanLyDuAnTrenWindows\QuanLyDuAn\App.xaml
+171517555164
 
-151692614516
+22-1656243283
 2001031969389
-Forms\BaoCao.xaml;Forms\DuAn.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
+Forms\BaoCao.xaml;Forms\ChiTietCongViec.xaml;Forms\ChiTietNhanVien.xaml;Forms\CongThucKPI.xaml;Forms\DanhSachCongViec.xaml;Forms\DanhSachNhanVien.xaml;Forms\EditIssue.xaml;Forms\EditLuong.xaml;Forms\Edit_CongThuc.xaml;Forms\Edit_KPI.xaml;Forms\KPI.xaml;Forms\LoginWindow.xaml;Forms\Luong.xaml;Forms\MainWindow.xaml;Forms\ProjectsControl.xaml;Forms\RegisterControl.xaml;Forms\TrangChu.xaml;
 
 False
 

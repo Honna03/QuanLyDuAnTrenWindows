@@ -2,7 +2,16 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Forms\DuAn.xaml.cs">
+    <Compile Update="Forms\ChiTietCongViec.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\ChiTietNhanVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\DanhSachCongViec.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\DanhSachNhanVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Forms\LoginWindow.xaml.cs">

@@ -11,14 +11,23 @@
 
         <!-- Sidebar -->
         <StackPanel Grid.Column="0" Background="#252526">
-            <TextBlock Text="ABHK" Foreground="White" FontSize="20" FontWeight="Bold" Margin="10"/>
+            <Button Click="Logo_Click" Background="Transparent" BorderThickness="0">
+                <TextBlock Text="ABHK" Foreground="White" FontSize="20" FontWeight="Bold" Margin="10"/>
+            </Button>
             <StackPanel Margin="10">
-                <Button Content="Quản lý dự án" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
-                <Button Content="Quản lý công việc" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
-                <Button Content="Quản lý tiến độ" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
-                <Button Content="Nhân viên" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
-                <Button Content="Tài khoản" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
-                <Button Content="Báo cáo" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14"/>
+                <Button x:Name="btn_QLDA" Content="Quản lý dự án" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14" Click="btn_QLDA_Click"/>
+                <Button x:Name="btn_QLCV" Content="Quản lý công việc" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14" Click="btn_QLCV_Click"/>
+                <Expander Background="Transparent" Foreground="White" Padding="0" Margin="0,5,0,0">
+                    <Expander.Header>
+                        <TextBlock Text="Quản lý KPI" FontSize="14" Foreground="White" Padding="5"/>
+                    </Expander.Header>
+                    <StackPanel Margin="10,0,0,0">
+                        <Button x:Name="btn_CongThucKPI" Content="Công thức" Background="Transparent" Foreground="#D3D3D3" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="12" Click="btn_CongThucKPI_Click"/>
+                        <Button x:Name="btn_KPI" Content="KPI" Background="Transparent" Foreground="#D3D3D3" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="12" Click="btn_KPI_Click"/>
+                    </StackPanel>
+                </Expander>
+                <Button x:Name="btn_NhanVien" Content="Nhân viên" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14" Click="btn_NhanVien_Click"/>
+                <Button x:Name="btn_BaoCao" Content="Báo cáo" Background="Transparent" Foreground="White" BorderThickness="0" Padding="5" HorizontalContentAlignment="Left" FontSize="14" Click="btn_BaoCao_Click"/>
             </StackPanel>
         </StackPanel>
 
@@ -58,7 +67,15 @@
                     <TextBlock x:Name="UserName" Text="aaâaaaaaaadfasdfasdfsdffasfsfsadfsadfasdfbbbaa"
                                Foreground="White" FontSize="14" VerticalAlignment="Center"
                                MaxWidth="200" TextTrimming="CharacterEllipsis" Margin="0,0,10,0"/>
-                    <TextBlock Text="👤" Foreground="White" FontSize="20" VerticalAlignment="Center"/>
+                    <Button x:Name="UserButton" Background="Transparent" BorderThickness="0" Padding="0" Click="UserButton_Click">
+                        <TextBlock x:Name="i_User" Text="👤" Foreground="White" FontSize="20" VerticalAlignment="Center"/>
+                        <Button.ContextMenu>
+                            <ContextMenu x:Name="UserContextMenu">
+                                <MenuItem Header="Đăng xuất"/>
+                                <MenuItem Header="Thoát"/>
+                            </ContextMenu>
+                        </Button.ContextMenu>
+                    </Button>
                 </StackPanel>
             </Grid>
 
@@ -66,5 +83,5 @@
             <ContentControl x:Name="MainContent" Grid.Row="1" Background="#1E1E1E"/>
         </Grid>
     </Grid>
-    
+
 </Window>

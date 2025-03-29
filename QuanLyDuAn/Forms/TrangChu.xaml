@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:QuanLyDuAn.Forms"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#2E2E2E" Margin="0,0,-53,-90">
+    <Grid Background="#2E2E2E">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -95,6 +95,11 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="20">
+            <Viewbox Height="300" Width="300">
+                <Calendar x:Name="ProjectCalendar" Height="139" Width="173" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            </Viewbox>
         </Grid>
     </Grid>
 </UserControl>
